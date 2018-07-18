@@ -155,7 +155,7 @@ input, textarea, select, button {
 
 a, a:visited, a:focus, a:active {
 	text-decoration: none;
-	color: #008bc4;
+	color: #0f156b;
 }
 
 a:hover {
@@ -182,13 +182,13 @@ a:hover {
 }
 
 #logo {
-	width: 121px;
+	width: 191px;
 	height: 134px;
 	display: block;
 	cursor: pointer;
 	margin: 0 auto -82px;
 	text-indent: -9999em;
-	background: url(../images/logo.png) no-repeat;
+	/* background: url(../images/logo.png) no-repeat; */
 	position: relative;
 	z-index: 3;
 }
@@ -212,7 +212,7 @@ a:hover {
 }
 
 #menu a {
-	font-size: 21px;
+	font-size: 29px;
 	line-height: 28px;
 	color: #8c929c;
 	font-family: 'BebasNeue';
@@ -221,7 +221,7 @@ a:hover {
 
 #menu a:hover,
 #menu .current a {
-	color: #008bc4;
+	color: #c43e00;
 	text-decoration: underline;
 }
 
@@ -294,7 +294,7 @@ a:hover {
 	text-indent: -999em;
 	height: 17px;
 	display: block;
-	background: url(../images/bg_slider_nav_2.png) no-repeat;
+	background: url(../images/header.jpg) no-repeat;
 }
 
 .slider-con .bx-pager-item a.active,
@@ -642,7 +642,7 @@ h1.single{
 }
 
 .slider .bxslider li {
-	background: url(../images/pic_slide.jpg) no-repeat 50% 50%;
+	background: url(../images/header.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	height: 600px;
 }
@@ -655,7 +655,7 @@ h1.single{
 .slider .info h2 {
 	color: #fff;
 	font-family: 'BebasNeue';
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 72px;
 	line-height: 84px;
 	padding-bottom: 110px;
@@ -663,13 +663,13 @@ h1.single{
 }
 
 .slider .info h2 span {
-	color: #fff;
+	color: rgb(233, 105, 32);
 	font-family: 'BebasNeue';
 	font-weight: 700;
 	font-size: 84px;
 	line-height: 101px;
 	border-radius: 4px;
-	background: #008bc4;
+	background: #060e52;
 	padding: 1px 23px 5px 23px;
 	display: inline-block;
 }
@@ -684,7 +684,7 @@ h1.single{
 	font-family: 'BebasNeue';
 	font-size: 40px;
 	line-height: 48px;
-	font-weight: 300;
+	font-weight: 350;
 	padding-right: 63px;
 	background: url(../images/bg_arrow.png) no-repeat 100% 50%;
 }
@@ -769,9 +769,9 @@ h1.single{
 
 .posts .info h3 {
 	overflow: hidden;
-	color: #008bc3;
+	color:#050c4d;
 	font-family: 'BebasNeue';
-	font-size: 30px;
+	font-size: 36px;
 	line-height: 34px;
 	padding-bottom: 11px;
 }
@@ -781,13 +781,13 @@ h1.single{
 
 .news {
 	overflow: hidden;
-	background: #2c4167;
+	background: #050c4d;
 	padding: 57px 0 70px 0;
 }
 
 h1,
 h2 {
-	color: #7e8798;
+	color:#060e58;
 	font-size: 60px;
 	font-family: 'BebasNeue';
 	line-height: 68px;
@@ -829,15 +829,15 @@ h1 {
 }
 
 .news .info h4 {
-	color: #8ed3ef;
-	font-size: 14px;
+	color: #ffffff;
+	font-size: 18px;
 	line-height: 20px;
 	font-weight: bold;
 }
 
 .news .info .date {
 	color: #899ec4;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 20px;
 	padding-bottom: 10px;
 }
@@ -849,7 +849,7 @@ h1 {
 .news .more {
 	padding-right: 23px;
 	background: url(../images/bg_arrow_blue.png) no-repeat 100% 50%;
-	color: #8ed3ef;
+	color: #dbdbdb;
 }
 
 .more {
@@ -866,11 +866,11 @@ h1 {
 
 a.btn,
 .btn {
-	color: #7d8797;
+	color: #fff;
 	border-radius: 4px;
-	background: #fff;
-	font-size: 16px;
-	height: 46px;
+	background: #d8611b;
+	font-size: 17px;
+	height: 47px;
 	line-height: 46px;
 	display: inline-block;
 	padding: 0 21px;
@@ -887,7 +887,7 @@ a.btn.blue,
 ------------------------------------------------------------------------------*/
 
 .events {
-	margin-top: -46px;
+	margin-top: -206px;
 	padding: 57px 0 100px 0;
 }
 
@@ -903,7 +903,7 @@ a.btn.blue,
 	width: 70px;
 	float: left;
 	border-radius: 4px;
-	background-color: #008bc3;
+	background-color: #060e58;
 	margin-right: 30px;
 	margin-top: 4px;
 	text-align: center;
@@ -916,7 +916,7 @@ a.btn.blue,
 
 .current-date .date {
 	background-color: #fff;
-	color: #008bc3;
+	color:#d8611b;
 	font-size: 40px;
 	border-radius: 4px;
 	line-height: 49px;
@@ -937,8 +937,8 @@ a.btn.blue,
 ------------------------------------------------------------------------------*/
 
 .info-request {
-	border-radius: 4px;
-	background: #2b4167 url(../images/ico_information.png) no-repeat 35px 35px;
+	border-radius: 6px;
+	background: #060e58 url(../images/ico_information.png) no-repeat 35px 35px;
 	display: block;
 	padding: 0 0 0 138px;
 	margin: 0 15px 100px 15px;
@@ -961,7 +961,7 @@ a.btn.blue,
 	display: block;
 	float: right;
 	height: 100%;
-	background: #008bc4 url(../images/bg_arrow_information.png) no-repeat 50% 50%;
+	background: #d8611b url(../images/bg_arrow_information.png) no-repeat 50% 50%;
 }
 
 .info-request .title {
@@ -997,11 +997,11 @@ a.btn.blue,
 
 #footer {
 	clear: both;
-	background: #2c4167 url(../images/bg_white_arrow.png) no-repeat 50% 0;
+	background: #070f53 url(../images/bg_white_arrow.png) no-repeat 50% 0;
 	overflow: hidden;
 	padding: 91px 0 0 0;
 	font-size: 14px;
-	color: #fff;
+	color: #899ec4;
 	line-height: 20px;
 }
 
@@ -1094,13 +1094,13 @@ a.btn.blue,
 }
 
 #footer .col-3 li a {
-	background: #8ed3ef;
+	background-color: #1e2d49;
 	display: block;
 	width: 119px;
 	height: 35px;
 	line-height: 35px;
-	color: #46788d;
-	font-size: 14px;
+	color: #fff;
+	font-size: 14.5px;
 	border-radius: 4px;
 	padding-left: 35px;
 	text-align: center;
@@ -1109,7 +1109,7 @@ a.btn.blue,
 }
 
 #footer .col-3 li a:after {
-	background: #81c6e2 url(../images/ico_social.png) no-repeat 9px 8px;
+	background: #1e2d49 url(../images/ico_social.png) no-repeat 9px 8px;
 	position: absolute;
 	content: "";
 	top: 0;
@@ -1688,7 +1688,6 @@ a.btn.blue,
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	
 	#logo {
-		background-image: url(../images/logo@2x.png);
 		background-size: 121px 134px;
 	}
 
@@ -1946,7 +1945,7 @@ a.btn.blue,
 	}
 	
 	.events {
-		padding: 30px 0 40px 0;
+		padding: 230px 0 40px 0;
 	}
 	
 	.events article {
@@ -2017,7 +2016,6 @@ a.btn.blue,
 	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	
 		#logo {
-			background-image: url(../images/logo@2x.png);
 			background-size: 90px 100px;
 		}
 	}
@@ -2133,13 +2131,13 @@ a.button:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 30px;
+    width: 70px;
 }
-.logo a {
+/* .logo a {
     width: 100%;
     height: 100%;
     display: block;
-}
+} */
 
 /* USER (FORM WRAPPER) */
 .user {
@@ -2151,10 +2149,10 @@ a.button:hover {
     width: 100%;
     height: 100vh;
     overflow: auto;
-    background: -moz-linear-gradient(48deg, rgba(42,46,54,1) 0%, rgba(97,107,125,1) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(42,46,54,1)), color-stop(100%, rgba(97,107,125,1)));
-    background: -webkit-linear-gradient(48deg, rgba(42,46,54,1) 0%, rgba(97,107,125,1) 100%);
-    background: linear-gradient(42deg, rgba(42,46,54,1) 0%, rgba(97,107,125,1) 100%);
+    background: -moz-linear-gradient(48deg, #070f53 0%, #070f53 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #070f53), color-stop(100%, #070f53));
+    background: -webkit-linear-gradient(48deg,#070f53 0%,#070f53 100%);
+    background: linear-gradient(42deg, #070f53 0% ,#070f53 100%);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -2175,7 +2173,7 @@ a.button:hover {
     padding: .2em 0em;
     background-color: #5C6576;
     border: none;
-    color: #999;
+    color: rgb(255, 251, 251);
     cursor: pointer;
     text-align: center;
     font-size: .8em;
@@ -2188,7 +2186,7 @@ a.button:hover {
     color: #fff;
     border-radius: 0 30px 30px 0;
     background-color: #28A55F;
-    background: -moz-linear-gradient(270deg, rgba(105,221,201,1) 0%, rgba(78,193,182,1) 100%);
+    background: -moz-linear-gradient(270deg, rgba(105,221,201,1) 0%, rgb(23, 139, 128) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(105,221,201,1)), color-stop(100%, rgba(78,193,182,1)));
     background: -webkit-linear-gradient(270deg, rgba(105,221,201,1) 0%, rgba(78,193,182,1) 100%);
     background: linear-gradient(180deg, rgba(105,221,201,1) 0%, rgba(78,193,182,1) 100%);
